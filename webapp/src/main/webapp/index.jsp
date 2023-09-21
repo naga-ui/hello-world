@@ -28,6 +28,7 @@
                     </select>
                 </label>
             </p>
+	    <br>
  
             <p>
                 <label>First name: <input name="firstName" /></label>
@@ -36,7 +37,7 @@
             <p>
                 <label>Last name: <input name="lastName" /></label>
             </p>
- 
+ 		<br>
             <p>
                 Gender :
                 <label><input type="radio" name="gender"
