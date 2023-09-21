@@ -1,15 +1,81 @@
-<form>
-    <label for="firstname">First name: </label>
-    <input type="text" name="firstname"  required>
-    
-    <label for="lastname">Last name: </label>
-    <input type="text" name="lastname"  required>
-    
-    <label for="email">email: </label>
-    <input type="email" name="email"  required>
-    <br>
-    <label for="password">password: </label>
-    <input type="password" name="password"  required>
-    <br>
-    <input type="submit" value="Login!">
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>GfG</title>
+</head>
+ 
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+ 
+            <p>
+                <label>
+                    Salutation
+                    <br />
+                    <select name="salutation">
+                        <option>--None--</option>
+                        <option>Mr.</option>
+                        <option>Ms.</option>
+                        <option>Mrs.</option>
+                        <option>Dr.</option>
+                        <option>Prof.</option>
+                    </select>
+                </label>
+            </p>
+ 
+            <p>
+                <label>First name: <input name="firstName" /></label>
+            </p>
+ 
+            <p>
+                <label>Last name: <input name="lastName" /></label>
+            </p>
+ 
+            <p>
+                Gender :
+                <label><input type="radio" name="gender"
+                              value="male" />
+                      Male   
+                  </label>
+                <label><input type="radio" name="gender"
+                              value="female" />
+                      Female   
+                  </label>
+            </p>
+ 
+            <p>
+                <label>Email:<input type="email"
+                                    name="email" />
+                  </label>
+            </p>
+ 
+            <p>
+                <label>Date of Birth:<input type="date"
+                                            name="birthDate">
+                  </label>
+            </p>
+ 
+            <p>
+                <label>
+                    Address :
+                    <br />
+                    <textarea name="address" cols="30"
+                              rows="3">
+                      </textarea>
+                </label>
+            </p>
+ 
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+ 
+        </fieldset>
+    </form>
+</body>
+</html>
