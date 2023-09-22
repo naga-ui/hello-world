@@ -2,82 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible"
-          content="IE=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <title>GfG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Page</title>
 </head>
- 
 <body>
-    <form>
-        <fieldset>
-            <legend>Personal Details</legend>
- 
-            <p>
-                <label>
-                    Salutation
-                    <br />
-                    <select name="salutation">
-                        <option>--None--</option>
-                        <option>Mr.</option>
-                        <option>Ms.</option>
-                        <option>Mrs.</option>
-                        <option>Dr.</option>
-                        <option>Prof.</option>
-                    </select>
-                </label>
-            </p>
-	    <br>
- 
-            <p>
-                <label>First name: <input name="firstName" /></label>
-            </p>
-	    <br>
- 
-            <p>
-                <label>Last name: <input name="lastName" /></label>
-            </p>
- 		<br>
-            <p>
-                Gender :
-                <label><input type="radio" name="gender"
-                              value="male" />
-                      Male   
-                  </label>
-                <label><input type="radio" name="gender"
-                              value="female" />
-                      Female   
-                  </label>
-            </p>
- 
-            <p>
-                <label>Email:<input type="email"
-                                    name="email" />
-                  </label>
-            </p>
- 
-            <p>
-                <label>Date of Birth:<input type="date"
-                                            name="birthDate">
-                  </label>
-            </p>
- 
-            <p>
-                <label>
-                    Address :
-                    <br />
-                    <textarea name="address" cols="30"
-                              rows="3">
-                      </textarea>
-                </label>
-            </p>
- 
-            <p>
-                <button type="submit">Submit</button>
-            </p>
- 
-        </fieldset>
-    </form>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
+        </section>
+
+        <section>
+            <h2>Services</h2>
+            <ul>
+                <li>Web Design</li>
+                <li>Graphic Design</li>
+                <li>SEO Optimization</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 MyWebsite.com</p>
+    </footer>
 </body>
 </html>
+
